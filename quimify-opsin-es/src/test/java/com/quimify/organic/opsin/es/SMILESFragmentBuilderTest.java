@@ -10,7 +10,7 @@ import java.util.Set;
 
 import org.junit.jupiter.api.Test;
 
-import com.quimify.organic.opsin.en.BondStereo.BondStereoValue;
+import com.quimify.organic.opsin.es.BondStereo.BondStereoValue;
 
 public class SMILESFragmentBuilderTest {
 

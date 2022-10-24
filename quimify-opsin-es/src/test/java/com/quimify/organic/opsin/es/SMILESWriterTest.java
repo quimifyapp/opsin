@@ -9,7 +9,7 @@ import java.util.List;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import com.quimify.organic.opsin.en.BondStereo.BondStereoValue;
+import com.quimify.organic.opsin.es.BondStereo.BondStereoValue;
 
 public class SMILESWriterTest {
 	

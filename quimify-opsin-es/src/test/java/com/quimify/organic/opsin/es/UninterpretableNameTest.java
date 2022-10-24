@@ -7,7 +7,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import com.quimify.organic.opsin.en.OpsinResult.OPSIN_RESULT_STATUS;
+import com.quimify.organic.opsin.es.OpsinResult.OPSIN_RESULT_STATUS;
 
 public class UninterpretableNameTest {
 	

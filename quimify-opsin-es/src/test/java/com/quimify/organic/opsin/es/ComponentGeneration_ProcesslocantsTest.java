@@ -2,7 +2,7 @@ package com.quimify.organic.opsin.es;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
-import static com.quimify.organic.opsin.en.XmlDeclarations.*;
+import static com.quimify.organic.opsin.es.XmlDeclarations.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,6 @@
 package com.quimify.organic.opsin.es;
 
-import static com.quimify.organic.opsin.en.XmlDeclarations.*;
+import static com.quimify.organic.opsin.es.XmlDeclarations.*;
 
 import org.junit.jupiter.api.Test;
 

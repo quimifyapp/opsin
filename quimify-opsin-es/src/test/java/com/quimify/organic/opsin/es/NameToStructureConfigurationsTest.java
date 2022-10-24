@@ -7,7 +7,7 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import com.quimify.organic.opsin.en.OpsinResult.OPSIN_RESULT_STATUS;
+import com.quimify.organic.opsin.es.OpsinResult.OPSIN_RESULT_STATUS;
 
 public class NameToStructureConfigurationsTest {
 

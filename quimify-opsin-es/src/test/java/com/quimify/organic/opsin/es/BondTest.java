@@ -6,8 +6,8 @@ import static org.mockito.Mockito.mock;
 
 import org.junit.jupiter.api.Test;
 
-import com.quimify.organic.opsin.en.Bond.SMILES_BOND_DIRECTION;
-import com.quimify.organic.opsin.en.BondStereo.BondStereoValue;
+import com.quimify.organic.opsin.es.Bond.SMILES_BOND_DIRECTION;
+import com.quimify.organic.opsin.es.BondStereo.BondStereoValue;
 
 public class BondTest {
 	

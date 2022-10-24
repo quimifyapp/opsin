@@ -1,7 +1,7 @@
 package com.quimify.organic.opsin.es;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static com.quimify.organic.opsin.en.XmlDeclarations.*;
+import static com.quimify.organic.opsin.es.XmlDeclarations.*;
 
 import java.util.List;
 

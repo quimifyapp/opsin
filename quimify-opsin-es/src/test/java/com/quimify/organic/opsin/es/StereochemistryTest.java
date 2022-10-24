@@ -23,11 +23,11 @@ import org.hamcrest.CoreMatchers;
 
 import java.util.Iterator;
 
-import com.quimify.organic.opsin.en.BondStereo.BondStereoValue;
-import com.quimify.organic.opsin.en.OpsinResult.OPSIN_RESULT_STATUS;
-import com.quimify.organic.opsin.en.OpsinWarning.OpsinWarningType;
-import com.quimify.organic.opsin.en.StereoAnalyser.StereoBond;
-import com.quimify.organic.opsin.en.StereoAnalyser.StereoCentre;
+import com.quimify.organic.opsin.es.BondStereo.BondStereoValue;
+import com.quimify.organic.opsin.es.OpsinResult.OPSIN_RESULT_STATUS;
+import com.quimify.organic.opsin.es.OpsinWarning.OpsinWarningType;
+import com.quimify.organic.opsin.es.StereoAnalyser.StereoBond;
+import com.quimify.organic.opsin.es.StereoAnalyser.StereoCentre;
 
 public class StereochemistryTest {
 

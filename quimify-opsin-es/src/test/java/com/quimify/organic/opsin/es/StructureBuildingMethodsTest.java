@@ -4,7 +4,7 @@ import java.util.Set;
 
 import org.junit.jupiter.api.Test;
 
-import static com.quimify.organic.opsin.en.XmlDeclarations.*;
+import static com.quimify.organic.opsin.es.XmlDeclarations.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.mock;
 
