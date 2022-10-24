@@ -1,0 +1,209 @@
+<!DOCTYPE tokenLists SYSTEM "tokenLists.dtd">
+<tokenLists>
+  <tokenList tagname="group" type="elementaryAtom" subType="simpleGroup" symbol="Í">
+    <token value="[Li]" commonOxidationStatesAndMax="1:1">litio</token>
+    <token value="[Na]" commonOxidationStatesAndMax="1:1">sodio</token>
+    <token value="[K]" commonOxidationStatesAndMax="1:1">potasio</token>
+    <token value="[Rb]" commonOxidationStatesAndMax="1:1">rubidio</token>
+    <token value="[Cs]" commonOxidationStatesAndMax="1:1">cesio</token>
+    <token value="[Fr]" commonOxidationStatesAndMax="1:1">francio</token>
+
+    <token value="[Be]" commonOxidationStatesAndMax="2:2">berilio</token>
+    <token value="[Mg]" commonOxidationStatesAndMax="2:2">magnesio</token>
+    <token value="[Ca]" commonOxidationStatesAndMax="2:2">calcio</token>
+    <token value="[Sr]" commonOxidationStatesAndMax="2:2">estroncio</token>
+    <token value="[Ba]" commonOxidationStatesAndMax="2:2">bario</token>
+    <token value="[Ra]" commonOxidationStatesAndMax="2:2">radio</token>
+
+    <token value="[Al]" commonOxidationStatesAndMax="3:3">aluminio</token>
+    <token value="[Ga]" commonOxidationStatesAndMax="3:3">galio</token>
+    <token value="[In]" commonOxidationStatesAndMax="3:3">indio</token>
+    <token value="[Tl]" commonOxidationStatesAndMax="1,3:3">talio</token>
+
+    <token value="[Sn]" commonOxidationStatesAndMax="4:4">stannum</token>
+    <token value="[Pb]" commonOxidationStatesAndMax="2,4:4">plomo</token>
+
+    <token value="[Bi]" commonOxidationStatesAndMax="3:5">bismuto</token>
+
+    <token value="[Po]" commonOxidationStatesAndMax="2,4:6">polonio</token>
+  <!--transition metals-->
+    <token value="[Sc]" commonOxidationStatesAndMax="3:3">scandio</token>
+    <token value="[Ti]" commonOxidationStatesAndMax="4:4">titanio</token>
+    <token value="[V]" commonOxidationStatesAndMax="5:5">vanadio</token>
+    <token value="[Cr]" commonOxidationStatesAndMax="3,6:6">chromo</token>
+    <token value="[Mn]" commonOxidationStatesAndMax="2,4,7:7">manganeso</token>
+    <token value="[Fe]" commonOxidationStatesAndMax="2,3:6">hierro</token>
+    <token value="[Co]" commonOxidationStatesAndMax="2,3:5">cobalto</token>
+    <token value="[Ni]" commonOxidationStatesAndMax="2:4">niquel</token>
+    <token value="[Cu]" commonOxidationStatesAndMax="2:4">cobre</token>
+    <token value="[Zn]" commonOxidationStatesAndMax="2:2">zinc|cinc</token>
+
+    <token value="[Y]" commonOxidationStatesAndMax="3:3">itrio</token>
+    <token value="[Zr]" commonOxidationStatesAndMax="4:4">circonio</token>
+    <token value="[Nb]" commonOxidationStatesAndMax="5:5">niobio</token>
+    <token value="[Mo]" commonOxidationStatesAndMax="4,6:6">molibdeno</token>
+    <token value="[Tc]" commonOxidationStatesAndMax="4,7:7">tecnecio</token>
+    <token value="[Ru]" commonOxidationStatesAndMax="3,4:8">rutenio</token>
+    <token value="[Rh]" commonOxidationStatesAndMax="3:6">rodio</token>
+    <token value="[Pd]" commonOxidationStatesAndMax="2,4:4">paladio</token>
+    <token value="[Ag]" commonOxidationStatesAndMax="1:3">plata</token>
+    <!--<token value="[Ag]" commonOxidationStatesAndMax="1:3">argentum</token>has many non chemical uses-->
+    <token value="[Cd]" commonOxidationStatesAndMax="2:2">cadmio</token>
+
+    <token value="[La]" commonOxidationStatesAndMax="3:3">lantano</token>
+    <token value="[Ce]" commonOxidationStatesAndMax="3,4:4">cerio</token>
+    <token value="[Pr]" commonOxidationStatesAndMax="3:4">praseodimio</token>
+    <token value="[Nd]" commonOxidationStatesAndMax="3:3">neodimio</token>
+    <token value="[Pm]" commonOxidationStatesAndMax="3:3">prometio</token>
+    <token value="[Sm]" commonOxidationStatesAndMax="3:3">samario</token>
+    <token value="[Eu]" commonOxidationStatesAndMax="3:3">europio</token><!--3 is more common than 2-->
+    <token value="[Gd]" commonOxidationStatesAndMax="3:3">gadolinio</token>
+    <token value="[Tb]" commonOxidationStatesAndMax="3:4">terbio</token>
+    <token value="[Dy]" commonOxidationStatesAndMax="3:3">disprosio</token>
+    <token value="[Ho]" commonOxidationStatesAndMax="3:3">holmio</token>
+    <token value="[Er]" commonOxidationStatesAndMax="3:3">erbio</token>
+    <token value="[Tm]" commonOxidationStatesAndMax="3:3">tulio</token>
+    <token value="[Yb]" commonOxidationStatesAndMax="3:3">iterbo</token>
+    <token value="[Lu]" commonOxidationStatesAndMax="3:3">lutecio</token>
+    <token value="[Hf]" commonOxidationStatesAndMax="4:4">hafnio</token>
+    <token value="[Ta]" commonOxidationStatesAndMax="5:5">tantalo</token>
+    <token value="[W]" commonOxidationStatesAndMax="4,6:6">wolframio|tungsteno</token>
+    <!--<token value="[W]" commonOxidationStatesAndMax="4,6:6">wolfram</token>has many non chemical uses-->
+    <token value="[Re]" commonOxidationStatesAndMax="4:7">renio</token>
+    <token value="[Os]" commonOxidationStatesAndMax="4:8">osmio</token>
+    <token value="[Ir]" commonOxidationStatesAndMax="3,4:6">iridio</token>
+    <token value="[Pt]" commonOxidationStatesAndMax="2,4:6">platino</token>
+    <token value="[Au]" commonOxidationStatesAndMax="3:5">oro</token>
+    <!--<token value="[Au]" commonOxidationStatesAndMax="3:5">aurum</token>has many non chemical uses-->
+    <token value="[Hg]" commonOxidationStatesAndMax="1,2:4">mercurio</token>
+
+    <token value="[Ac]" commonOxidationStatesAndMax="3:3">actinio</token>
+    <token value="[Th]" commonOxidationStatesAndMax="4:4">torio</token>
+    <token value="[Pa]" commonOxidationStatesAndMax="5:5">protactinio</token>
+    <token value="[U]" commonOxidationStatesAndMax="6:6">uranio</token>
+    <token value="[Np]" commonOxidationStatesAndMax="5:7">neptunio</token>
+    <token value="[Pu]" commonOxidationStatesAndMax="4:7">plutonio</token>
+    <token value="[Am]" commonOxidationStatesAndMax="3:6">americio</token>
+    <token value="[Cm]" commonOxidationStatesAndMax="3:4">curio</token>
+    <token value="[Bk]" commonOxidationStatesAndMax="3:4">berkelio</token>
+    <token value="[Cf]" commonOxidationStatesAndMax="3:4">californio</token>
+    <token value="[Es]" commonOxidationStatesAndMax="3:3">einstenio</token>
+    <token value="[Fm]" commonOxidationStatesAndMax="3:3">fermio</token>
+    <token value="[Md]" commonOxidationStatesAndMax="3:3">mendelevio</token>
+    <token value="[No]" commonOxidationStatesAndMax="3:3">nobelio</token>
+    <token value="[Lr]" commonOxidationStatesAndMax="3:3">lawrencio|laurencio</token>
+    <token value="[Rf]" commonOxidationStatesAndMax="4:4">rutherfordio</token>
+    <token value="[Db]" commonOxidationStatesAndMax="5:5">dubnio</token>
+    <token value="[Sg]" commonOxidationStatesAndMax="6:6">seaborgio</token>
+    <token value="[Bh]" commonOxidationStatesAndMax="7:7">bohrio</token>
+    <token value="[Hs]" commonOxidationStatesAndMax="8:8">hasio</token>
+    <token value="[Mt]" commonOxidationStatesAndMax="6:6">meitnerio</token>
+    <token value="[Ds]" commonOxidationStatesAndMax="8:8">darmstatio|darmstadtio</token>
+    <token value="[Rg]" commonOxidationStatesAndMax="3:3">roentgenio</token>
+    <token value="[Cn]" commonOxidationStatesAndMax="2:2">copernicio</token>
+    <token value="[Nh]" commonOxidationStatesAndMax="3:3">nihonio</token>
+    <token value="[Fl]" commonOxidationStatesAndMax="2:2">flerovio</token>
+    <token value="[Mc]" commonOxidationStatesAndMax="3:3">moscovio</token>
+    <token value="[Lv]" commonOxidationStatesAndMax="2:2">livermorio</token>
+
+    <!--non metals-->
+    <!--hydrogen is currently excluded as it is already present as a substituent anyway allowing names like hydrogen chloride -->
+
+    <token value="[B]" commonOxidationStatesAndMax="3:3">boro</token>
+
+    <token value="[C]" commonOxidationStatesAndMax="4:4">carbono</token>
+    <token value="[Si]" commonOxidationStatesAndMax="4:4">silicio</token>
+    <token value="[Ge]" commonOxidationStatesAndMax="2,4:4">germanio</token>
+
+    <token value="[N]" commonOxidationStatesAndMax="3:3">nitrogeno</token>
+    <token value="[P]" commonOxidationStatesAndMax="3,5:5">fosforo</token>
+    <token value="[As]" commonOxidationStatesAndMax="3,5:5">arsenico</token>
+    <token value="[Sb]" commonOxidationStatesAndMax="3,5:5">antimonio</token>
+
+    <token value="[O]" commonOxidationStatesAndMax="2:2">oxigeno</token>
+    <token value="[S]" commonOxidationStatesAndMax="2,4,6:6">azufre</token>
+    <token value="[Se]" commonOxidationStatesAndMax="2,4,6:6">selenio</token>
+    <token value="[Te]" commonOxidationStatesAndMax="2,4,6:6">teluro</token>
+
+    <token value="[F]">fluor</token>
+    <token value="[Cl]" commonOxidationStatesAndMax="1,3,5,7:7">cloro</token>
+    <token value="[Br]" commonOxidationStatesAndMax="1,3,5,7:7">bromo</token>
+    <token value="[I]" commonOxidationStatesAndMax="1,3,5,7:7">yodo</token>
+    <token value="[At]" commonOxidationStatesAndMax="1:5">astato</token>
+    <token value="[Ts]" commonOxidationStatesAndMax="1:5">teneso</token>
+
+    <token value="[He]">helio</token>
+    <token value="[Ne]">neon</token>
+    <token value="[Ar]">argon</token>
+    <token value="[Kr]">kripton</token>
+    <token value="[Xe]">xenon</token>
+    <token value="[Rn]">radon</token>
+    <token value="[219Rn]">actinon</token>
+    <token value="[220Rn]">toron</token>
+    <token value="[Og]">oganeson</token>
+  </tokenList>
+  <tokenList tagname="group" type="elementaryAtom" subType="ousIcAtom" symbol="Í">
+    <token value="[Sb]" commonOxidationStatesAndMax="3:3">antimonioso</token>
+    <token value="[Sb]" commonOxidationStatesAndMax="5:5">antimonico</token>
+    <token value="[Ag]" commonOxidationStatesAndMax="1:1">argentoso</token>
+    <token value="[Ag]" commonOxidationStatesAndMax="2:2">argentico</token>
+    <token value="[Au]" commonOxidationStatesAndMax="1:1">aurouso</token>
+    <token value="[Au]" commonOxidationStatesAndMax="3:3">aurico</token>
+    <token value="[Bi]" commonOxidationStatesAndMax="3:3">bismutoso</token>
+    <token value="[Bi]" commonOxidationStatesAndMax="5:5">bismutico</token>
+    <token value="[Ce]" commonOxidationStatesAndMax="3:3">cerioso</token>
+    <token value="[Ce]" commonOxidationStatesAndMax="4:4">cerico</token>
+    <token value="[Cr]" commonOxidationStatesAndMax="2:2">cromoso</token>
+    <token value="[Cr]" commonOxidationStatesAndMax="3:3">cromico</token>
+    <token value="[Co]" commonOxidationStatesAndMax="2:2">cobaltoso</token>
+    <token value="[Co]" commonOxidationStatesAndMax="3:3">cobaltico</token>
+    <token value="[Cu]" commonOxidationStatesAndMax="1:1">cuproso</token>
+    <token value="[Cu]" commonOxidationStatesAndMax="2:2">cuprico</token>
+    <token value="[Eu]" commonOxidationStatesAndMax="2:2">europioso</token>
+    <token value="[Eu]" commonOxidationStatesAndMax="3:3">europico</token>
+    <token value="[Fe]" commonOxidationStatesAndMax="2:2">ferroso</token>
+    <token value="[Fe]" commonOxidationStatesAndMax="3:3">ferrico</token>
+    <token value="[Ge]" commonOxidationStatesAndMax="2:2">germanioso</token>
+    <token value="[Ge]" commonOxidationStatesAndMax="4:4">germanic</token>
+    <token value="[Ir]" commonOxidationStatesAndMax="2:2">iridoso</token>
+    <token value="[Ir]" commonOxidationStatesAndMax="3:3">iridico</token>
+    <token value="[Mn]" commonOxidationStatesAndMax="2:2">manganoso</token>
+    <token value="[Mn]" commonOxidationStatesAndMax="3:3">manganico</token>
+    <token value="[Hg]" commonOxidationStatesAndMax="1:1">mercurioso</token>
+    <token value="[Hg]" commonOxidationStatesAndMax="2:2">mercurico</token>
+    <token value="[Mo]" commonOxidationStatesAndMax="2:2">molibdenoso</token>
+    <token value="[Mo]" commonOxidationStatesAndMax="3:3">molibdenico</token>
+    <token value="[Np]" commonOxidationStatesAndMax="3:3">neptunoso</token>
+    <token value="[Np]" commonOxidationStatesAndMax="4:4">neptunico</token>
+    <token value="[Ni]" commonOxidationStatesAndMax="2:2">niqueloso</token>
+    <token value="[Ni]" commonOxidationStatesAndMax="3:3">niquelico</token>
+    <token value="[Nb]" commonOxidationStatesAndMax="3:3">nioboso</token>
+    <token value="[Nb]" commonOxidationStatesAndMax="5:5">niobico</token>
+    <token value="[Os]" commonOxidationStatesAndMax="2:2">osmioso</token>
+    <token value="[Os]" commonOxidationStatesAndMax="3:3">osmico</token>
+    <token value="[Pd]" commonOxidationStatesAndMax="2:2">paladioso</token>
+    <token value="[Pd]" commonOxidationStatesAndMax="3:3">paladico</token>
+    <token value="[Pt]" commonOxidationStatesAndMax="2:2">platinoso</token>
+    <token value="[Pt]" commonOxidationStatesAndMax="4:4">platinico</token>
+    <token value="[Pb]" commonOxidationStatesAndMax="2:2">plumboso</token>
+    <token value="[Pb]" commonOxidationStatesAndMax="4:4">plumbico</token>
+    <token value="[Re]" commonOxidationStatesAndMax="2:2">renioso</token>
+    <token value="[Re]" commonOxidationStatesAndMax="4:4">renico</token>
+    <token value="[Rh]" commonOxidationStatesAndMax="2:2">rodioso</token>
+    <token value="[Rh]" commonOxidationStatesAndMax="3:3">rodico</token>
+    <token value="[Ru]" commonOxidationStatesAndMax="2:2">rutenoso</token>
+    <token value="[Ru]" commonOxidationStatesAndMax="3:3">rutenico</token>
+    <token value="[Sn]" commonOxidationStatesAndMax="2:2">estañoso</token>
+    <token value="[Sn]" commonOxidationStatesAndMax="4:4">estañico</token>
+    <token value="[Tl]" commonOxidationStatesAndMax="1:1">talioso</token>
+    <token value="[Tl]" commonOxidationStatesAndMax="3:3">talico</token>
+    <token value="[Ti]" commonOxidationStatesAndMax="3:3">titanioso</token>
+    <token value="[Ti]" commonOxidationStatesAndMax="4:4">titanico</token>
+    <token value="[W]" commonOxidationStatesAndMax="4:4">wolframioso|tungstenioso</token>
+    <token value="[W]" commonOxidationStatesAndMax="6:6">wolframico|tungstenico</token>
+    <token value="[U]" commonOxidationStatesAndMax="4:4">uranioso</token>
+    <token value="[U]" commonOxidationStatesAndMax="6:6">uranico</token>
+    <token value="[V]" commonOxidationStatesAndMax="2:2">vanadioso</token>
+    <token value="[V]" commonOxidationStatesAndMax="3:3">vanadico</token>
+  </tokenList>
+</tokenLists>
