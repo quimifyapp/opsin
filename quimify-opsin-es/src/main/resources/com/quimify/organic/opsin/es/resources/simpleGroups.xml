@@ -407,7 +407,7 @@
 	<!--groups that must be substituted-->
 	<tokenList tagname="group" type="simpleGroup" subType="simpleGroup" symbol="Ø">
 		<token value="C#[C-]">acetylide|acetylid</token>
-		<token value="N">amine|amin</token>
+		<token value="N">amina|amin</token>
 		<token value="[NH4+]">aminium</token>
 		<token value="[NH2-]">aminide|aminid</token>
 		<token value="N1C(=O)NC(=O)CC(=O)1" labels="1/2//3/4//5/6/" defaultInLocant="5">barbiturate|barbiturat</token>

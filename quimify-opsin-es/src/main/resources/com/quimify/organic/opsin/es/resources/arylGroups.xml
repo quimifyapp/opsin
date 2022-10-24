@@ -39,7 +39,7 @@
 		<token value="c1ccc2cccccc12" labels="1/2/3/3a/4/5/6/7/8/8a">azulen</token>
 		<token value="c1ccc2cccc3c(=O)c4ccccc4c1c23" labels="1/2/3/3a/4/5/6/6a/7//7a/8/9/10/11/11a/11b/11c">benzanthron</token>
 		<token value="c1(ccc(N)cc1)c2ccc(N)cc2" labels="1/2/3/4//5/6/1'/2'/3'/4'//5'/6'">benzidin|4,4'-benzidin</token>
-		<token value="c1ccccc1" labels="1/2,ortho/3,meta/4,para/5/6">bencen</token>
+		<token value="c1ccccc1" labels="1/2,ortho/3,meta/4,para/5/6">bencen|benzen</token>
 		<token value="c1(ccccc1)C(=O)C(O)c2ccccc2" labels="1/2/3/4/5/6///alpha//1'/2'/3'/4'/5'/6'">benzoin</token>
 		<token value="c1ccccc1" labels="1/2,ortho/3,meta/4,para/5/6" addGroup="=O locant 1;=O locant 4" frontLocantsExpected="1,2,ortho,3,meta,4,para,5,6">benzoquinon</token>
 		<token value="c12ccccc1.C2(Br)(Br)Br" labels="1/2,ortho/3,meta/4,para/5/6/alpha///">benzotribromid</token>
