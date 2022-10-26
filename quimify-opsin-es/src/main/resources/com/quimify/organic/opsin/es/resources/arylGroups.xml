@@ -21,10 +21,10 @@
 		<token value="Nc1ccccc1" labels="/1/2,ortho/3,meta/4,para/5/6">anilin</token>
 		<token value="COc1ccccc1" labels="alpha//1/2,ortho/3,meta/4,para/5/6" addGroup="N defaultLocant 4" frontLocantsExpected="2,ortho,3,meta,4,para,5,6">anisidin</token>
 		<token value="c1(ccccc1)OC" labels="1/2,ortho/3,meta/4,para/5/6//alpha">anisol</token>
-		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" fusedRingNumbering="1/2/3/4/4a/5/5a/6/7/8/9/9a/10">anthracen</token>
-		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" addGroup="=O locant 9;=O locant 10" frontLocantsExpected="1,2,3,4,5,6,7,8,9,10">anthraquinon</token>
-		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" addGroup="=O defaultLocant 1;=O defaultLocant 4;=O defaultLocant 9;=O defaultLocant 10" frontLocantsExpected="1,2,3,4,5,6,7,8,9,10">anthradiquinon</token>
-		<token value="c1cccc2cc3c4nc5ccc6cc7ccccc7cc6c5nc4ccc3cc12" labels="1/2/3/4/4a/5/5a/5b/6/6a/7/8/8a/9/9a/10/11/12/13/13a/14/14a/14b/15/15a/16/17/17a/18/18a">anthrazin</token>
+		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" fusedRingNumbering="1/2/3/4/4a/5/5a/6/7/8/9/9a/10">antracen</token>
+		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" addGroup="=O locant 9;=O locant 10" frontLocantsExpected="1,2,3,4,5,6,7,8,9,10">antraquinon</token>
+		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" addGroup="=O defaultLocant 1;=O defaultLocant 4;=O defaultLocant 9;=O defaultLocant 10" frontLocantsExpected="1,2,3,4,5,6,7,8,9,10">antradiquinon</token>
+		<token value="c1cccc2cc3c4nc5ccc6cc7ccccc7cc6c5nc4ccc3cc12" labels="1/2/3/4/4a/5/5a/5b/6/6a/7/8/8a/9/9a/10/11/12/13/13a/14/14a/14b/15/15a/16/17/17a/18/18a">antrazin</token>
 		<token value="n1cccc2cc3cccnc3nc12" labels="1/2/3/4/4a/5/5a/6/7/8/9/9a/10/10a">anthyridin</token>
 		<token value="c1cccc2[as]c3ccccc3[as]c12" labels="1/2/3/4/4a/5/5a/6/7/8/9/9a/10/10a">arsanthren</token>
 		<token value="c1cccc2[as]cc3ccccc3c12" labels="1/2/3/4/4a/5/6/6a/7/8/9/10/10a/10b">arsanthridin</token>
@@ -208,10 +208,10 @@
 		<token value="[nH]1cnc2cccc3cccc1c23" labels="1/2/3/3a/4/5/6/6a/7/8/9/9a/9b">perimidin</token>
 		<token value="c1ccc2cccc3c4cccc5cccc6c71.c237.c456" labels="1/2/3/3a/4/5/6/6a/6b/7/8/9/9a/10/11/12/12a/12b/12c/12d">perylen</token>
 		<token value="[cH2]1ccc2cccc3cccc1c23" labels="1/2/3/3a/4/5/6/6a/7/8/9/9a/9b">phenalen</token>
-		<token value="c1cccc2c3ccccc3c4nc5c6ccccc6c7ccccc7c5nc4c12" labels="1/2/3/4/4a/4b/5/6/7/8/8a/8b/9/9a/9b/10/11/12/13/13a/13b/14/15/16/17/17a/17b/18/18a/18b">phenanthrazin</token>
+		<token value="c1cccc2c3ccccc3c4nc5c6ccccc6c7ccccc7c5nc4c12" labels="1/2/3/4/4a/4b/5/6/7/8/8a/8b/9/9a/9b/10/11/12/13/13a/13b/14/15/16/17/17a/17b/18/18a/18b">phenantrazin</token>
 		<token value="c1cccc2c3ccccc3ccc12" labels="1/2/3/4/4a/4b/5/6/7/8/8a/9/10/10a">phenanthren</token>
 		<token value="c1cccc2ncc3ccccc3c12" labels="1/2/3/4/4a/5/6/6a/7/8/9/10/10a/10b">phenanthridin</token>
-		<token value="c1cccc2ccc3ccccc3c12" labels="1/2/3/4/4a/5/6/6a/7/8/9/10/10a/10b" addHeteroAtom="N locant 1;N locant 10" frontLocantsExpected="1,2,3,4,4a,5,6,6a,7,8,9,10,10a,10b">phenanthrolin</token>
+		<token value="c1cccc2ccc3ccccc3c12" labels="1/2/3/4/4a/5/6/6a/7/8/9/10/10a/10b" addHeteroAtom="N locant 1;N locant 10" frontLocantsExpected="1,2,3,4,4a,5,6,6a,7,8,9,10,10a,10b">phenantrolin</token>
 		<token value="c1cccc2nc3ccccc3[as]c12" labels="1/2/3/4/4a/5/5a/6/7/8/9/9a/10/10a">phenarsazin</token>
 		<token value="c1cccc2nc3ccccc3nc12" labels="1/2/3/4/4a/5/5a/6/7/8/9/9a/10/10a">phenazin</token>
 		<token value="CCOc1ccccc1" labels="beta/alpha//1/2,ortho/3,meta/4,para/5/6" addGroup="N defaultLocant 4" frontLocantsExpected="2,ortho,3,meta,4,para,5,6">phenetidin</token>

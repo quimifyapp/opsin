@@ -19,8 +19,8 @@
 		<token value="c1cccc2pc3ccccc3cc12" labels="1/2/3/4/4a/5/5a/6/7/8/9/9a/10/10a">acridophosphino</token>
 		<token value="c1cccc2c3ccc4cc5ccccc5nc4c3nc12" labels="1/2/3/4/4a/4b/5/6/6a/7/7a/8/9/10/11/11a/12/12a/12b/13/13a">acrindolino</token>
 		<token value="n1cccc2cc3cccnc3nc12" labels="1/2/3/4/4a/5/5a/6/7/8/9/9a/10/10a">anthyridino</token>
-		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" fusedRingNumbering="1/2/3/4/4a/5/5a/6/7/8/9/9a/10">anthraceno|anthra</token>
-		<token value="c1cccc2cc3c4nc5ccc6cc7ccccc7cc6c5nc4ccc3cc12" labels="1/2/3/4/4a/5/5a/5b/6/6a/7/8/8a/9/9a/10/11/12/13/13a/14/14a/14b/15/15a/16/17/17a/18/18a">anthrazino</token>
+		<token value="c1cccc2cc3ccccc3cc12" labels="1/2/3/4/4a/10/10a/5/6/7/8/8a/9/9a" fusedRingNumbering="1/2/3/4/4a/5/5a/6/7/8/9/9a/10">antraceno|antra</token>
+		<token value="c1cccc2cc3c4nc5ccc6cc7ccccc7cc6c5nc4ccc3cc12" labels="1/2/3/4/4a/5/5a/5b/6/6a/7/8/8a/9/9a/10/11/12/13/13a/14/14a/14b/15/15a/16/17/17a/18/18a">antrazino</token>
 		<token value="c1cccc2[as]c3ccccc3[as]c12" labels="1/2/3/4/4a/5/5a/6/7/8/9/9a/10/10a">arsanthreno</token>
 		<token value="c1cccc2[as]cc3ccccc3c12" labels="1/2/3/4/4a/5/6/6a/7/8/9/10/10a/10b">arsanthridino</token>
 		<token value="c1cc[as]2ccccc12" labels="1/2/3/4/5/6/7/8/8a">arsindolizino</token>
@@ -78,7 +78,7 @@
 		<token value="[nH]1cnc2cccc3cccc1c23" labels="1/2/3/3a/4/5/6/6a/7/8/9/9a/9b">perimidino</token>
 		<token value="c1ccc2cccc3c4cccc5cccc6c71.c237.c456" labels="1/2/3/3a/4/5/6/6a/6b/7/8/9/9a/10/11/12/12a/12b/12c/12d">peryleno|perylo</token>
 		<token value="[cH2]1ccc2cccc3cccc1c23" labels="1/2/3/3a/4/5/6/6a/7/8/9/9a/9b">phenaleno</token>
-		<token value="c1cccc2c3ccccc3c4nc5c6ccccc6c7ccccc7c5nc4c12" labels="1/2/3/4/4a/4b/5/6/7/8/8a/8b/9/9a/9b/10/11/12/13/13a/13b/14/15/16/17/17a/17b/18/18a/18b">phenanthrazino</token>
+		<token value="c1cccc2c3ccccc3c4nc5c6ccccc6c7ccccc7c5nc4c12" labels="1/2/3/4/4a/4b/5/6/7/8/8a/8b/9/9a/9b/10/11/12/13/13a/13b/14/15/16/17/17a/17b/18/18a/18b">phenantrazino</token>
 		<token value="c1cccc2c3ccccc3ccc12" labels="1/2/3/4/4a/4b/5/6/7/8/8a/9/10/10a">phenanthreno</token>
 		<token value="c1cccc2ncc3ccccc3c12" labels="1/2/3/4/4a/5/6/6a/7/8/9/10/10a/10b">phenanthridino</token>
 		<token value="c1cccc2c3ccccc3ccc12" labels="1/2/3/4/4a/4b/5/6/7/8/8a/9/10/10a">phenanthro</token>

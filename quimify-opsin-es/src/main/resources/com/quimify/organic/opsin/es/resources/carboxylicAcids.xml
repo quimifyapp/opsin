@@ -212,7 +212,7 @@
 		<token value="Cc1c(C)cccc1" labels="/1/2,ortho//3,meta/4,para/5/6" suffixAppliesTo="1,4">phthal</token><!--both-->
 		<token value="Cc1cc(C)ccc1" labels="/1/2,ortho/3,meta//4,para/5/6" suffixAppliesTo="1,5">isophthal</token><!--both-->
 		<token value="Cc1ccc(C)cc1" labels="/1/2,ortho/3,meta/4,para//5/6" suffixAppliesTo="1,6">terephthal</token><!--both-->
-		<token value="Cc1c(N)cccc1" labels="/1/2,ortho//3,meta/4,para/5/6">anthranil</token><!--unknown-->
+		<token value="Cc1c(N)cccc1" labels="/1/2,ortho//3,meta/4,para/5/6">antranil</token><!--unknown-->
 
 		<token value="CC=C(C)CC" suffixAppliesTo="1,4,6">aconit</token><!--unknown-->
 		<token value="CC(NC(=O)N)NC(=O)N">allant</token><!--unknown-->
