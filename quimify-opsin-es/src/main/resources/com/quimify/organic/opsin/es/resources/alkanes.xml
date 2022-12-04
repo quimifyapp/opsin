@@ -60,7 +60,7 @@
 	<!--note that n-,i-,s- are case sensitive due to potential confusion with nitrogen/iodine/sulfur respectively and hence are matched by a regex-->
 	<tokenList tagname="alkaneStemModifier" symbol="n">
 		<token value="normal">normal|normal |normal-</token>
-		<token value="tert">tertiary|tertiary |tertiary-|tert|tert.|tert-|tert.-|t-</token>
+		<token value="tert">terciario|terciario |terciario-|terc|terc.|terc-|terc.-|t-</token>
 		<token value="iso">iso|iso-</token>
 		<token value="sec">sec|sec.|sec-|sec.-|secondary|secondary |secondary-</token>
 		<token value="neo">neo|neo-</token>
