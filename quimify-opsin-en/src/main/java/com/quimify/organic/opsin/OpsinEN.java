@@ -1,35 +1,27 @@
-package com.quimify.organic.opsin.es;
+package com.quimify.organic.opsin;
 
-public class OpsinES {
+import com.quimify.organic.opsin.en.NameToStructure;
+import com.quimify.organic.opsin.en.OpsinResult;
+
+public class OpsinEN {
 
     protected static final NameToStructure nameToStructure = NameToStructure.getInstance();
 
     private final boolean present;
+
+    // If present = true:
+
     private final String smiles; // Simplified Molecular Input Line Entry Specification
     private final String cml; // Chemical Markup Language
 
     // Constructor:
 
-    public OpsinES(String name) {
-        // Preprocessing:
-
-        // Spanish syntax -> English syntax:
-        if (name.contains(" de ")) { // "cloruro de sodio" (sodium chloride)
-            String[] palabras = name.split(" de "); // {"cloruro", "sodio"}
-            name = palabras[1] + " " + palabras[0]; // "sodio cloruro"
-        }
-
-        // Acids don´t have a prefix in English:
-        name = name.replaceFirst("ácido|acido", ""); // No suffix is needed
-
+    public OpsinEN(String name) {
         // Prefix "di" is problematic:
         name = correctEtherName(name);
 
         // Parsing:
-
         OpsinResult opsinResult = nameToStructure.parseChemicalName(name);
-
-        // Result:
 
         present = opsinResult.getStatus() == OpsinResult.OPSIN_RESULT_STATUS.SUCCESS;
         smiles = opsinResult.getSmiles();
@@ -38,16 +30,16 @@ public class OpsinES {
 
     // Private:
 
-    private static String correctEtherName(String nombre) {
-        if(nombre.contains("éter") || nombre.contains("eter")) {
-            String correctedName = nombre.replaceFirst("di", "");
+    private String correctEtherName(String name) {
+        if(name.contains("ether")) {
+            String correctedName = name.replaceFirst("di", "");
 
             // The "di" part may not refer the ether, but to a substituent:
             if(correctedName.trim().split("\\s+").length == 2) // As in "etil éter"
-                nombre = correctedName;
+                name = correctedName;
         }
 
-        return nombre;
+        return name;
     }
 
     // Getters:

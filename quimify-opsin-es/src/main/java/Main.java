@@ -1,4 +1,4 @@
-import com.quimify.organic.opsin.es.OpsinES;
+import com.quimify.organic.opsin.OpsinES;
 
 import java.util.Scanner;
 

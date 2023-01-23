@@ -1,26 +1,33 @@
-package com.quimify.organic.opsin.en;
+package com.quimify.organic.opsin;
 
-public class OpsinEN {
+import com.quimify.organic.opsin.es.NameToStructure;
+import com.quimify.organic.opsin.es.OpsinResult;
+
+public class OpsinES {
 
     protected static final NameToStructure nameToStructure = NameToStructure.getInstance();
 
     private final boolean present;
+
+    // If present = true:
+
     private final String smiles; // Simplified Molecular Input Line Entry Specification
     private final String cml; // Chemical Markup Language
 
     // Constructor:
 
-    public OpsinEN(String name) {
-        // Preprocessing:
+    public OpsinES(String name) {
+        // Words ordering:
+        name = correctSpanishSyntax(name);
+
+        // Acids don´t have a prefix in English:
+        name = name.replaceFirst("ácido|acido", "");
 
         // Prefix "di" is problematic:
         name = correctEtherName(name);
 
         // Parsing:
-
         OpsinResult opsinResult = nameToStructure.parseChemicalName(name);
-
-        // Result:
 
         present = opsinResult.getStatus() == OpsinResult.OPSIN_RESULT_STATUS.SUCCESS;
         smiles = opsinResult.getSmiles();
@@ -29,8 +36,17 @@ public class OpsinEN {
 
     // Private:
 
-    private static String correctEtherName(String name) {
-        if(name.contains("ether")) {
+    private String correctSpanishSyntax(String name) {
+        if (name.contains(" de ")) { // "cloruro de sodio" (sodium chloride)
+            String[] words = name.split(" de "); // {"cloruro", "sodio"}
+            name = words[1] + " " + words[0]; // "sodio cloruro"
+        }
+
+        return name;
+    }
+
+    private String correctEtherName(String name) {
+        if(name.contains("éter") || name.contains("eter")) {
             String correctedName = name.replaceFirst("di", "");
 
             // The "di" part may not refer the ether, but to a substituent:
