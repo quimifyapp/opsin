@@ -23,6 +23,16 @@
               <goal>shade</goal>
             </goals>
             <configuration>
+
+              <filters>
+                <filter>
+                  <artifact>*:*</artifact>
+                  <excludes>
+                    <exclude>Main.class</exclude>
+                  </excludes>
+                </filter>
+              </filters>
+
               <!-- outputFile avoids installing needless uber jar: "The created archive will neither replace the project's main artifact nor will it be attached"-->
               <outputFile>target/quimify-opsin-en-${project.version}-with-dependencies.jar</outputFile>
             </configuration>
