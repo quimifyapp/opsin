@@ -118,7 +118,7 @@
 		<token value="CCCCCCCCCCCCCCCCCC" labels="numeric" usableAsAJoiner="yes">stear</token>
 		<token value="CCCCCCCC/C=C\CCCCCCCC" labels="numeric" usableAsAJoiner="yes">ole</token>
 		<token value="CCCCCCCC\C=C\CCCCCCCC" labels="numeric" usableAsAJoiner="yes">elaid</token>
-		<token value="Cc1ccccc1" labels="alpha/1/2,ortho/3,meta/4,para/5/6">benz</token><!--benzal/benzol are trivial names-->
+		<token value="Cc1ccccc1" labels="alpha/1/2,ortho/3,meta/4,para/5/6">benz|benc</token><!--benzal/benzol are trivial names--> <!--TRANSLATED-->
 		<token value="CC(C)c1ccccc1" labels="///1/2,ortho/3,meta/4,para/5/6">hydratrop</token>
 		<token value="CC(=C)c1ccccc1" labels="///1/2,ortho/3,meta/4,para/5/6">atrop</token>
 		<token value="CC=Cc1ccccc1" labels="///1/2,ortho/3,meta/4,para/5/6">cinnam</token>
