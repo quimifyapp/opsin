@@ -139,41 +139,36 @@ For these groups the charge on the first atom will be increased by 1 if they are
 
 	<tokenList tagname="functionalGroup" type="monoValentStandaloneGroup" symbol="´">
 		<token value="[N-]=[N+]=[N-]">azide|azid</token>
-		<token value="[Br-]">bromide|bromid</token>
-		<token value="[Cl-]">chloride|chlorid</token>
-		<token value="[O-]C#N">cyanate|cyanat</token>
-		<token value="[C-]#N">cianuro|cianur</token>
-		<token value="[2H-]">deuteride|deuterid</token>
-		<token value="[O-][2H]">deuteroxide|deuteroxid</token>
-		<token value="[F-]">fluoride|fluorid</token>
-		<token value="[O-][N+]#[C-]">fulminate|fulminat</token><!--technically fulminates are isofulminates but structure of fulminic acid was only later determined-->
-		<token value="[H-]">hydride|hydrid</token>
-		<token value="[O-]O">hydroperoxide|hydroperoxid</token>
-		<token value="[SeH-]">hydroselenide|hydroselenid</token>
-		<token value="[Se-][SeH]">hydrodiselenide|hydrodiselenid</token>
-		<token value="[Se-][Se][SeH]">hydrotriselenide|hydrotriselenid</token>
-		<token value="[SH-]">hydrosulfide|hydrosulfid</token>
-		<token value="[S-]S">hydrodisulfide|hydrodisulfid</token>
-		<token value="[S-]SS">hydrotrisulfide|hydrotrisulfid</token>
-		<token value="[S-]SSS">hydrotetrasulfide|hydrotetrasulfid</token>
-		<token value="[TeH-]">hydrotelluride|hydrotellurid</token>
-		<token value="[Te-][TeH]">hydroditelluride|hydroditellurid</token>
-		<token value="[Te-][Te][TeH]">hydrotritelluride|hydrotritellurid</token>
-		<token value="[OH-]">hydroxide|hydroxid</token>
-		<token value="[I-]">iodide|iodid</token>
-		<token value="[N-]=C=O">isocyanate|isocyanat</token>
-		<token value="N#[C-]">isocyanide|isocyanid</token>
-		<token value="[O-][N+]#[C-]">isofulminate|isofulminat</token>
-		<token value="N#[C-]">isonitrile|isonitril</token>
-		<token value="[N-]=C=[Se]">isoselenocyanate|isoselenocyanat</token>
-		<token value="[N-]=C=[Te]">isotellurocyanate|isotellurocyanat</token>
-		<token value="[N-]=C=S">isothiocyanate|isothiocyanat</token>
-		<token value="[Se-]C#N">selenocyanate|selenocyanat</token>
-		<token value="[Se-][N+]#[C-]">selenofulminate|selenofulminat</token>
-		<token value="[Te-]C#N">tellurocyanate|tellurocyanat</token>
-		<token value="[Te-][N+]#[C-]">tellurofulminate|tellurofulminat</token>
-		<token value="[S-]C#N">thiocyanate|thiocyanat</token>
-		<token value="[S-][N+]#[C-]">thiofulminate|thiofulminat</token>
+		<token value="[Br-]">bromuro|brom</token><!--TRANSLATED-->
+		<token value="[Cl-]">cloruro|clor</token><!--TRANSLATED-->
+		<token value="[O-]C#N">cianato|cianat</token><!--TRANSLATED-->
+		<token value="[C-]#N">cianuro|cianur</token><!--TRANSLATED-->
+		<token value="[2H-]">deuteruro|deuter</token><!--TRANSLATED-->
+		<token value="[O-][2H]">deuteroxido|deuteroxid</token><!--TRANSLATED-->
+		<token value="[F-]">fluoruro|fluor</token><!--TRANSLATED-->
+		<token value="[O-][N+]#[C-]">fulminato|fulminat</token><!--technically fulminates are isofulminates but structure of fulminic acid was only later determined--> <!--TRANSLATED-->
+		<token value="[H-]">hidruro|hidr</token><!--TRANSLATED-->
+		<token value="[O-]O">hidroperoxido|hidroperoxid</token><!--TRANSLATED-->
+		<token value="[SeH-]">hidroselenuro|hidroselen</token><!--TRANSLATED-->
+		<token value="[Se-][SeH]">hidrodiselenuro|hidrodiselen</token><!--TRANSLATED-->
+		<token value="[Se-][Se][SeH]">hidrotriselenuro|hidrotriselen</token><!--TRANSLATED-->
+		<token value="[SH-]">hidrosulfuro|hidrosulf</token><!--TRANSLATED-->
+		<token value="[S-]S">hidrodisulfuro|hidrodisulf</token><!--TRANSLATED-->
+		<token value="[S-]SS">hidrotrisulfuro|hidrotrisulf</token><!--TRANSLATED-->
+		<token value="[S-]SSS">hidrotetrasulfuro|hidrotetrasulf</token><!--TRANSLATED-->
+		<token value="[TeH-]">hidrotelururo|hidrotelur</token><!--TRANSLATED-->
+		<token value="[Te-][TeH]">hidroditelururo|hidroditelur</token><!--TRANSLATED-->
+		<token value="[Te-][Te][TeH]">hidrotritelururo|hidrotritelur</token><!--TRANSLATED-->
+		<token value="[OH-]">hidroxido|hidroxid</token><!--TRANSLATED-->
+		<token value="[I-]">yoduro|yod</token><!--TRANSLATED-->
+		<token value="[N-]=C=O">isocianato|isocianat</token><!--TRANSLATED-->
+		<token value="N#[C-]">isocianuro|isocian</token><!--TRANSLATED-->
+		<token value="[O-][N+]#[C-]">isofulminato|isofulminat</token><!--TRANSLATED-->
+		<token value="N#[C-]">isonitrilo|isonitril</token><!--TRANSLATED-->
+		<token value="[N-]=C=[Se]">isoselenocianato|isoselenocianat</token><!--TRANSLATED-->
+		<token value="[N-]=C=[Te]">isotellurocianato|isotellurocianat</token><!--TRANSLATED-->
+		<token value="[N-]=C=S">isotiocianato|isotiocianat</token><!--TRANSLATED-->
+		<token value="[Se-]C#N">selenocianato|selenocianat</token><!--TRANSLATED-->
 	</tokenList>
 
 </tokenLists>
