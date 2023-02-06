@@ -20,7 +20,7 @@ public class OpsinES {
         // Words ordering:
         name = correctSpanishSyntax(name);
 
-        // Acids don´t have a prefix in English:
+        // Acids don´t have a prefix in English but rather a suffix, which OPSIN doesn't need:
         name = name.replaceFirst("ácido|acido", "");
 
         // Prefix "di" is problematic:
