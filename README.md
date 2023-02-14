@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an adaptation and a translation to Spanish of [OPSIN](https://github.com/dan2097/opsin) (Open Parser for Systematic IUPAC Nomenclature) used in [Quimify](https://quimify.com/).
+Quimify Opsin is an open-source project that offers a translation of  [OPSIN](https://github.com/dan2097/opsin) (Open Parser for Systematic IUPAC Nomenclature), a powerful parser for systematic IUPAC nomenclature, to Spanish. This project is intended to facilitate the naming of chemical compounds in Spanish, and is used in [Quimify](https://quimify.com/).
 
 ## Usage Examples
 
@@ -41,15 +41,19 @@ opsinES.getCML(); // Chemical Markup Language (too long)
    
 ### Pre processing 
 
-Done before parsing names with OPSIN.
+A pre-processing step is performed before parsing names with OPSIN. For instance:
 
-For example:
+From:
 
-`diethyl ether` → `ethyl ether`
+`diethyl ether`
+
+To:
+
+`ethyl ether`
 
 ### Translation 
 
-Done by editing resource files.
+Done by editing resource files. For instance:
 
 From:
 
@@ -70,7 +74,7 @@ To:
 Clone the repository and run `Main` from module `quimify-opsin-en` or `quimify-opsin-es` using Java 11.
 
 ## Installation
-  
+
 To use Quimify Opsin in your project, you can generate a JAR file with dependencies by running the Maven task `package` with the command `mvn package`. The JAR files will be located at `quimify-opsin-en/target` and `quimify-opsin-es/target` respectively.
 
 Alternatively, download the latest [release](https://github.com/quimifyapp/opsin/releases) available.
