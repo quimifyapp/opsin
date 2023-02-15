@@ -8,58 +8,53 @@ This is an adaptation and a translation to Spanish of [OPSIN](https://github.com
 
 ### Paralell, from an English and a Spanish name:
 
-```java
-OpsinEN opsinEN = new OpsinES("2-methylpropanoic acid");
+Build it:
 
-OpsinES opsinES = new OpsinES("ácido 2-metilpropanoico");
+```java
+String englishName = "2-methylpropanoic acid";
+OpsinEN opsinEN = new OpsinES(englishName);
 ```
 
-Check if name could be parsed:
+```java
+String spanishName = "ácido 2-metilpropanoico";
+OpsinES opsinES = new OpsinES(spanishName);
+```
+
+Result:
 
 ```java
 if (opsinEN.isPresent()) {
-  // ...
+    opsinEN.getSmiles(); // CC(C(=O)O)C
+    opsinEN.getCml(); // Chemical Markup Language (too long)
 }
-
-if (opsinES.isPresent()) {
-  // ...
-}
-
 ```
 
-Finally:
-
 ```java
-opsinEN.getSmiles(); // CC(C(=O)O)C
-opsinEN.getCML(); // Chemical Markup Language (too long)
-
-opsinES.getSmiles(); // CC(C(=O)O)C
-opsinES.getCML(); // Chemical Markup Language (too long)
+if (opsinES.isPresent()) {
+    opsinES.getSmiles(); // CC(C(=O)O)C
+    opsinES.getCml(); // Chemical Markup Language (too long)    
+}
 ```
 
 ## How it works
    
 ### Pre processing 
 
-Done before parsing names with OPSIN.
-
-For example:
+Done before parsing names with OPSIN. For instance:
 
 `diethyl ether` → `ethyl ether`
 
 ### Translation 
 
-Done by editing resource files.
+Done by editing resource files. For instance:
 
-From:
-
+`.../en/resources/functionalTerms.xml`
 ```XML
 <token value="[Br-]">bromide|bromid</token>
 <token value="[Cl-]">chloride|chlorid</token>
 ```
 
-To:
-
+`.../es/resources/functionalTerms.xml`
 ```XML
 <token value="[Br-]">bromuro|brom</token><!--TRANSLATED-->
 <token value="[Cl-]">cloruro|clor</token><!--TRANSLATED-->
