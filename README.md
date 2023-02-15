@@ -9,7 +9,7 @@ Quimify Opsin is an adaptation and translation to Spanish of [OPSIN](https://git
 ### Paralell, from an English and a Spanish name:
 
 ```java
-OpsinEN opsinEN = new OpsinES("2-methylpropanoic acid");
+OpsinEN opsinEN = new OpsinEN("2-methylpropanoic acid");
 
 OpsinES opsinES = new OpsinES("ácido 2-metilpropanoico");
 ```
