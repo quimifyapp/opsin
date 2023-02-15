@@ -8,69 +8,60 @@ Quimify Opsin is an adaptation and translation to Spanish of [OPSIN](https://git
 
 ### Paralell, from an English and a Spanish name:
 
-```java
-OpsinEN opsinEN = new OpsinEN("2-methylpropanoic acid");
+Build it:
 
-OpsinES opsinES = new OpsinES("ácido 2-metilpropanoico");
+```java
+String englishName = "2-methylpropanoic acid";
+OpsinEN opsinEN = new OpsinEN(englishName);
 ```
 
-Check if name could be parsed:
+```java
+String spanishName = "ácido 2-metilpropanoico";
+OpsinES opsinES = new OpsinES(spanishName);
+```
+
+Result:
 
 ```java
 if (opsinEN.isPresent()) {
-  // ...
+    opsinEN.getSmiles(); // CC(C(=O)O)C
+    opsinEN.getCml(); // Chemical Markup Language (too long)
 }
-
-if (opsinES.isPresent()) {
-  // ...
-}
-
 ```
 
-Finally:
-
 ```java
-opsinEN.getSmiles(); // CC(C(=O)O)C
-opsinEN.getCML(); // Chemical Markup Language (too long)
-
-opsinES.getSmiles(); // CC(C(=O)O)C
-opsinES.getCML(); // Chemical Markup Language (too long)
+if (opsinES.isPresent()) {
+    opsinES.getSmiles(); // CC(C(=O)O)C
+    opsinES.getCml(); // Chemical Markup Language (too long)    
+}
 ```
 
 ## How it works
-   
-### Pre processing 
 
-A pre-processing step is performed before parsing names with OPSIN. For instance:
+### Pre processing
 
-From:
+Done before parsing names with OPSIN. For instance:
 
-`diethyl ether`
+`diethyl ether` → `ethyl ether`
 
-To:
-
-`ethyl ether`
-
-### Translation 
+### Translation
 
 Done by editing resource files. For instance:
 
-From:
-
+`.../en/resources/functionalTerms.xml`
 ```XML
 <token value="[Br-]">bromide|bromid</token>
 <token value="[Cl-]">chloride|chlorid</token>
 ```
 
-To:
-
+`.../es/resources/functionalTerms.xml`
 ```XML
 <token value="[Br-]">bromuro|brom</token><!--TRANSLATED-->
 <token value="[Cl-]">cloruro|clor</token><!--TRANSLATED-->
 ```
 
 ## Usage
-  
+
 Clone the repository and run `Main` from module `quimify-opsin-en` or `quimify-opsin-es` using Java 11.
 
 ## Installation
@@ -80,5 +71,5 @@ To use Quimify Opsin in your project, you can generate a JAR file with dependenc
 Alternatively, download the latest [release](https://github.com/quimifyapp/opsin/releases) available.
 
 ## Dependencies
-  
+
 Quimify OPSIN uses the `opsin-core` module from [OPSIN](https://github.com/dan2097/opsin).
