@@ -2,7 +2,7 @@
 
 ## Overview
 
-Quimify Opsin is an adaptation and translation to Spanish of [OPSIN](https://github.com/dan2097/opsin) (Open Parser for Systematic IUPAC Nomenclature), a powerful parser for systematic IUPAC nomenclature. This project is intended to facilitate the generation of chemical structures from systematic IUPAC names in Spanish, and is used in [Quimify](https://quimify.com/).
+Quimify Opsin is an adaptation and translation to Spanish of [OPSIN](https://github.com/dan2097/opsin) (Open Parser for Systematic IUPAC Nomenclature), a powerful parser for systematic IUPAC nomenclature. This project is intended to facilitate the generation of chemical structures from systematic IUPAC names in Spanish, and is used in [Quimify](https://quimify.com/) as a library of [quimifyapp/organic](https://github.com/quimifyapp/organic).
 
 ## Usage Examples
 
