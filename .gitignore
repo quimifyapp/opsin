@@ -2,7 +2,7 @@ target/
 .classpath
 .project
 .settings
-/quimify-opsin-es/quimify-opsin-es.iml
+/quimify-opsin-spanish/quimify-opsin-spanish.iml
 /quimify-opsin.iml
-/quimify-opsin-en/quimify-opsin-en.iml
+/quimify-opsin-english/quimify-opsin-english.iml
 /.idea/

@@ -8,8 +8,8 @@
   <name>Quimify OPSIN</name>
 
   <modules>
-    <module>quimify-opsin-en</module>
-    <module>quimify-opsin-es</module>
+    <module>quimify-opsin-english</module>
+    <module>quimify-opsin-spanish</module>
   </modules>
 
   <properties>
@@ -46,13 +46,13 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>com.quimify.organic.opsin.en</groupId>
-        <artifactId>quimify-opsin-en</artifactId>
+        <groupId>com.quimify.organic.opsin.english</groupId>
+        <artifactId>quimify-opsin-english</artifactId>
         <version>2.7.0</version>
       </dependency>
       <dependency>
-        <groupId>com.quimify.organic.opsin.es</groupId>
-        <artifactId>quimify-opsin-es</artifactId>
+        <groupId>com.quimify.organic.opsin.spanish</groupId>
+        <artifactId>quimify-opsin-spanish</artifactId>
         <version>2.7.0</version>
       </dependency>
       <dependency>

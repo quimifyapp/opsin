@@ -12,27 +12,27 @@ Build it:
 
 ```java
 String englishName = "2-methylpropanoic acid";
-OpsinEN opsinEN = new OpsinEN(englishName);
+OpsinEnglish opsinEnglish = new OpsinEnglish(englishName);
 ```
 
 ```java
 String spanishName = "ácido 2-metilpropanoico";
-OpsinES opsinES = new OpsinES(spanishName);
+OpsinSpanish opsinSpanish = new OpsinSpanish(spanishName);
 ```
 
 Result:
 
 ```java
-if (opsinEN.isPresent()) {
-    opsinEN.getSmiles(); // CC(C(=O)O)C
-    opsinEN.getCml(); // Chemical Markup Language (too long)
+if (opsinEnglish.isPresent()) {
+    opsinEnglish.getSmiles(); // CC(C(=O)O)C
+    opsinEnglish.getCml(); // Chemical Markup Language (too long)
 }
 ```
 
 ```java
-if (opsinES.isPresent()) {
-    opsinES.getSmiles(); // CC(C(=O)O)C
-    opsinES.getCml(); // Chemical Markup Language (too long)    
+if (opsinSpanish.isPresent()) {
+    opsinSpanish.getSmiles(); // CC(C(=O)O)C
+    opsinSpanish.getCml(); // Chemical Markup Language (too long)    
 }
 ```
 
@@ -48,13 +48,13 @@ Done before parsing names with OPSIN. For instance:
 
 Done by editing resource files. For instance:
 
-`.../en/resources/functionalTerms.xml`
+`.../english/resources/functionalTerms.xml`
 ```XML
 <token value="[Br-]">bromide|bromid</token>
 <token value="[Cl-]">chloride|chlorid</token>
 ```
 
-`.../es/resources/functionalTerms.xml`
+`.../spanish/resources/functionalTerms.xml`
 ```XML
 <token value="[Br-]">bromuro|brom</token><!--TRANSLATED-->
 <token value="[Cl-]">cloruro|clor</token><!--TRANSLATED-->
@@ -62,11 +62,11 @@ Done by editing resource files. For instance:
 
 ## Usage
 
-Clone the repository and run `Main` from module `quimify-opsin-en` or `quimify-opsin-es` using Java 11.
+Clone the repository and run `Main` from module `quimify-opsin-english` or `quimify-opsin-spanish` using Java 11.
 
 ## Installation
 
-To use Quimify Opsin in your project, you can generate a JAR file with dependencies by running the Maven task `package` with the command `mvn package`. The JAR files will be located at `quimify-opsin-en/target` and `quimify-opsin-es/target` respectively.
+To use Quimify Opsin in your project, you can generate a JAR file with dependencies by running the Maven task `package` with the command `mvn package`. The JAR files will be located at `quimify-opsin-english/target` and `quimify-opsin-spanish/target` respectively.
 
 Alternatively, download the latest [release](https://github.com/quimifyapp/opsin/releases) available.
 

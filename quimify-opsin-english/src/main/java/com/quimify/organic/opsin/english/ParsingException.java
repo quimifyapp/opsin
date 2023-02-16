@@ -1,0 +1,28 @@
+package com.quimify.organic.opsin.english;
+
+/**Thrown during finite-state parsing.
+ *
+ * @author ptc24
+ *
+ */
+public class ParsingException extends Exception {
+
+	private static final long serialVersionUID = 1L;
+
+	ParsingException() {
+		super();
+	}
+
+	ParsingException(String message) {
+		super(message);
+	}
+
+	ParsingException(String message, Throwable cause) {
+		super(message, cause);
+	}
+
+	ParsingException(Throwable cause) {
+		super(cause);
+	}
+
+}
