@@ -74,7 +74,7 @@ Alternatively, download the latest [release](https://github.com/quimifyapp/opsin
 
 Quimify OPSIN uses the `opsin-core` module from [OPSIN](https://github.com/dan2097/opsin).
 
-## License
+## License?
 
 Do whatever you want with this code.
 
