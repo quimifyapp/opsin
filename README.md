@@ -73,3 +73,9 @@ Alternatively, download the latest [release](https://github.com/quimifyapp/opsin
 ## Dependencies
 
 Quimify OPSIN uses the `opsin-core` module from [OPSIN](https://github.com/dan2097/opsin).
+
+## License?
+
+Do whatever you want with this code.
+
+However, please be aware that our code relies on open-source dependencies, each with their own licenses and usage terms. Non-compliance with their licenses could have legal consequences.
