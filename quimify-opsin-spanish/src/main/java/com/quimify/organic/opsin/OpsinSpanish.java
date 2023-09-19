@@ -20,7 +20,7 @@ public class OpsinSpanish {
         // Words ordering:
         name = correctSpanishSyntax(name);
 
-        // Acids don´t have a prefix in English but rather a suffix, which OPSIN doesn't need:
+        // Acids don't have a prefix in English but rather a suffix, which OPSIN doesn't need:
         name = name.replaceFirst("ácido|acido", "");
 
         // Prefix "di" is problematic:
@@ -49,11 +49,11 @@ public class OpsinSpanish {
     }
 
     private String correctEtherName(String name) {
-        if(name.contains("éter") || name.contains("eter")) {
+        if (name.contains("éter") || name.contains("eter")) {
             String correctedName = name.replaceFirst("di", "");
 
             // The "di" part may not refer the ether, but to a substituent:
-            if(correctedName.trim().split("\\s+").length == 2) // As in "etil éter"
+            if (correctedName.trim().split("\\s+").length == 2) // As in "etil éter"
                 name = correctedName;
         }
 
