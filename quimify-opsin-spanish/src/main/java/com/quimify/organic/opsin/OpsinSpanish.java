@@ -26,6 +26,9 @@ public class OpsinSpanish {
         // Prefix "di" is problematic:
         name = correctEtherName(name);
 
+        // Translating dictionaries doesn't work:
+        name = correctOrthoPrefix(name);
+
         // Parsing:
         OpsinResult opsinResult = nameToStructure.parseChemicalName(name);
 
@@ -55,6 +58,10 @@ public class OpsinSpanish {
         }
 
         return name;
+    }
+
+    private String correctOrthoPrefix(String name) {
+        return name.replace("orto", "ortho");
     }
 
     // Getters:
